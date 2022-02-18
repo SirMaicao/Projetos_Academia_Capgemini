@@ -17,6 +17,9 @@ public class Program {
 			int caracteresFaltantes = minDigSenha - tamanhoSenha;
 			System.out.println("Adicione mais " + caracteresFaltantes + " caracteres a sua senha");
 		}
+		else {		
+			System.out.println("Senha forte!");
+		}
 		sc.close();
 	}
 }
