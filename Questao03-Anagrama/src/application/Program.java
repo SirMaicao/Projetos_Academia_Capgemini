@@ -49,7 +49,6 @@ public class Program {
 				}
 			}
 		}
-		System.out.println(trechos);
 		return trechos;
 	}
 	
