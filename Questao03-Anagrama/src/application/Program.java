@@ -12,7 +12,7 @@ public class Program {
 		
 		System.out.println("Digite uma palavra:");
 		String palavra = sc.nextLine();
-		List<String> trechos = trechoPalavra(palavra);
+		List<String> trechos = trechoPalavra(palavra.toLowerCase());
 		int contadorAnagramas = 0;
 
 		for (int i = 0; i <= trechos.size(); i++) {
